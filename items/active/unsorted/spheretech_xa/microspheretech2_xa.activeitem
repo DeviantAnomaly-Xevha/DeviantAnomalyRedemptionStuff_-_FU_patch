@@ -1,0 +1,19 @@
+{
+  "itemName": "microspheretech2_xa",
+  "price": 0,
+  "level": 1,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "category": "tech",
+  "description": "Unlocks Xenomite-type variants of the Bomb and Spider Microsphere techs.\n^#ff6464;Consumed on click.^reset;",
+  "shortdescription": "Micro Sphere Tech II (^#c0f863;XA^reset;)",
+  "twoHanded": true,
+  "inventoryIcon": "microspheretech2_xa.png",
+  "scripts": [ "microspheretech2_xa.lua" ],
+  "animation": "microspheretech2_xa.animation",
+  "animationCustom": {},
+  "fireTime": 2.0,
+  "fireOffset": [ 0.0, 0.0 ],
+
+  "tech_to_unlock": [ "microspherebomb_xa", "microspherespider_xa" ]
+}

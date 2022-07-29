@@ -1,0 +1,59 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/ff_surfaceshadowOres/0/1/-",
+      "value": [ "mor_maskstile", 0.1 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_deepsurfaceshadowOres/0/1/-",
+      "value": [ "mor_maskstile", 0.35 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_wastelandundergroundOres/0/1/-",
+      "value": [ "mor_xenomiteshardtile", 0.3 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_radioactiveOres/0/1/-",
+      "value": [ "mor_xenomiteshardtile", 0.2 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_deepradioactiveOres/0/1/-",
+      "value": [ "mor_xenomiteshardtile", 0.4 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_chromaticOres/0/1/-",
+      "value": [ "mor_xenomiteshardtile", 0.2 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_deepchromaticOres/0/1/-",
+      "value": [ "mor_xenomiteshardtile", 0.4 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_deepsurfacevolcanicOres/0/1/-",
+      "value": [ "mor_dragonleadoretile", 0.35 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_deepsurfaceinfernusOres/0/1/-",
+      "value": [ "mor_dragonleadoretile", 0.5 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_deepicemoonOres/0/1/-",
+      "value": [ "mor_maskstile", 0.35 ]
+    },
+    {
+      "op": "add",
+      "path": "/ff_asteroidstandardores/0/1/-",
+      "value": [ "mor_dragonleadoretile", 0.3 ]
+    }
+  ]
+]

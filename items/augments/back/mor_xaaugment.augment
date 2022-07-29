@@ -1,0 +1,44 @@
+{
+  "itemName": "mor_xaaugment",
+  "price": 35000,
+  "rarity": "Legendary",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_xaaugment.png",
+  "description": "Produces air, protects from xenomite, infected water, ^red;deadly radiation^reset;, ^red;low/moderate cold/heat^reset;, ^#36c13b;glows^reset;, and infects nearby attackers.",
+  "shortdescription": "XA Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_xa",
+    "displayName": "XA Augment",
+    "displayIcon": "/items/augments/back/mor_xaaugment.png",
+    "effects": [
+      {
+        "stat": "fireResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.6
+      },
+      {
+        "stat": "breathProtection",
+        "amount": 1.0
+      },
+      "mor_anticrystallizerband",
+      "mor_infectedwaterblockaugment",
+      "mor_xenomiteshardburstaugment"
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_xaaugment" ]
+}

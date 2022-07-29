@@ -1,0 +1,45 @@
+{
+  "itemName": "mor_heatprotectionaugment",
+  "price": 1000,
+  "rarity": "Rare",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_heatprotectionaugment.png",
+  "description": "Produces breathable air, and protects against ^red;low to moderate levels of radiation, cold, and heat^reset;.",
+  "shortdescription": "Heat Protection Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_heatprotection",
+    "displayName": "Heat Protection",
+    "displayIcon": "/items/augments/back/mor_heatprotectionaugment.png",
+    "effects": [
+      {
+        "stat": "fireStatusImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "breathProtection",
+        "amount": 1.0
+      }
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_heatprotectionaugment" ]
+}

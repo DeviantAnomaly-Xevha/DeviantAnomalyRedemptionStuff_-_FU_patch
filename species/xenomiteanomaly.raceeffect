@@ -1,0 +1,66 @@
+{ //These stats are mostly based off of the "Infected Core" accessory from tModLoader 1.3's version of the "Mod of Redemption". A -20% physical resistance weakness is included in the main mod.
+	"stats": [
+		{
+			"stat": "ffextremeradiationImmunity",
+			"amount": 1
+		},
+		{
+			"stat": "radiationburnImmunity",
+			"amount": 1
+		},
+		{
+			"stat": "radioactiveResistance",
+			"amount": 0.6
+		}
+	],
+	"diet": "omnivore",
+
+	"envEffects": [
+		{
+			"biomes": [ "moon" ],
+			"stats": [
+				{
+					"stat": "physicalResistance",
+					"amount": -0.1
+				}
+			],
+			"controlModifiers": {
+				"speedModifier": 0.85,
+				"airJumpModifier": 0.85
+			}
+		},
+		{
+			"biomes": [ "toxic", "alien", "protoworld", "irradiated", "chromatic", "protoworlddark", "jungle", "fungus", "fungal" ],
+			"stats": [
+				{
+					"stat": "powerMultiplier",
+					"effectiveMultiplier": 1.10
+				},
+				{
+					"stat": "protection",
+					"amount": 10
+				},
+				{
+					"stat": "maxHealth",
+					"amount": 200
+				},
+				{
+					"stat": "healthRegen",
+					"amount": 2
+				},
+				{
+					"stat": "jumpModifier",
+					"amount": 0.5
+				}
+			],
+			"controlModifiers": {
+				"speedModifier": 1.5,
+				"airJumpModifier": 1.5
+			}
+		}
+	],
+	"weaponEffects": [
+		{
+		}
+	]
+}

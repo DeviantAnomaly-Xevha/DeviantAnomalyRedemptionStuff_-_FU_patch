@@ -1,0 +1,21 @@
+{
+  "itemName": "mor_xaaugment2",
+  "price": 10000,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_xaaugment2.png",
+  "description": "Doesn't seem to be working...",
+  "shortdescription": "XA Augment II (^#ff6464;deprecated^reset;)",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_xa2",
+    "displayName": "XA Augment II",
+    "displayIcon": "/items/augments/back/mor_xaaugment2.png"
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ]
+}

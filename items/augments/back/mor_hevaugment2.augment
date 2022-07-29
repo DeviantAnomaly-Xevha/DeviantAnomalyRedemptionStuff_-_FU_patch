@@ -1,0 +1,21 @@
+{
+  "itemName": "mor_hevaugment2",
+  "price": 10000,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_hevaugment2.png",
+  "description": "Doesn't seem to be working...",
+  "shortdescription": "HEV Augment II (^#ff6464;deprecated^reset;)",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_hev2",
+    "displayName": "HEV Augment II",
+    "displayIcon": "/items/augments/back/mor_hevaugment2.png"
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ]
+}

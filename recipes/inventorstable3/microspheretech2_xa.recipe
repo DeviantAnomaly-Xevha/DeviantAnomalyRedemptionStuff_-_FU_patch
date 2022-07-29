@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "triangliumpyramid", "count" : 5 },
+	{ "item" : "mor_xenomiteitem", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "microspheretech2_xa",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "inventorstable3", "all" ]
+}

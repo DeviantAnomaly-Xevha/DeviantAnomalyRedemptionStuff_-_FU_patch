@@ -1,0 +1,22 @@
+{
+  "input": [
+    {
+      "item": "fuscienceresource",
+      "count": 82
+    },
+    {
+      "item": "cell_spliced",
+      "count": 3
+    },
+    {
+      "item": "mor_xenomiteshard",
+      "count": 9
+    }
+  ],
+  "output": {
+    "item": "mor_xenomiteseed",
+    "count": 3
+  },
+  "duration": 1,
+  "groups" : [ "designlab2", "explorationplants","nouncrafting","norecycling" ]
+}

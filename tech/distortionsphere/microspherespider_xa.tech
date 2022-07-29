@@ -1,0 +1,58 @@
+{
+  "name": "microspherespider_xa",
+  "type": "head",
+
+  "scripts": [ "microspherespider.lua" ],
+  "animator": "microsphere.animation",
+
+  "description": "A slower Micro Sphere ^green;[F]^reset; that clings to walls.",
+  "shortDescription": "Micro Spider Sphere (^#c0f863;XA^reset;)",
+  "rarity": "Uncommon",
+  "icon": "/tech/microspherespider_xa.png",
+
+  "chipCost": 5,
+
+  "animationParts": {
+    "ballGlow": "microsphereglow_xa.png",
+    "ball": "microspherespider_xa.png"
+  },
+
+  "transformedMovementParameters": {
+    "collisionPoly": [
+      [ -0.45, -0.25 ],
+      [ -0.25, -0.45 ],
+      [ 0.25, -0.45 ],
+      [ 0.45, -0.25 ],
+      [ 0.45, 0.25 ],
+      [ 0.25, 0.45 ],
+      [ -0.25, 0.45 ],
+      [ -0.45, 0.25 ]
+    ],
+    "airForce": 0.0,
+    "liquidForce": 0.0,
+
+    "airJumpProfile": {
+      "jumpSpeed": 0.0
+    },
+
+    "liquidJumpProfile": {
+      "jumpSpeed": 0.0,
+      "jumpControlForce": 0.0,
+
+      "multiJump": false,
+      "autoJump": false
+    }
+  },
+
+  "ignorePlatforms": true,
+
+  "ballSpeed": 10,
+
+  "energyCost": 30,
+
+  "ballRadius": 0.5,
+  "ballFrames": 8,
+
+  "damageDisableTime": 0.2
+
+}
