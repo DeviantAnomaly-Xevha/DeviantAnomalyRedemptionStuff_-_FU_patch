@@ -30,7 +30,7 @@
 			}
 		},
 		{
-			"biomes": [ "toxic", "alien", "protoworld", "irradiated", "chromatic", "protoworlddark", "jungle", "fungus", "fungal" ],
+			"biomes": [ "mor_wasteland", "toxic", "alien", "protoworld", "irradiated", "chromatic", "protoworlddark", "jungle", "fungus", "fungal" ],
 			"stats": [
 				{
 					"stat": "powerMultiplier",
